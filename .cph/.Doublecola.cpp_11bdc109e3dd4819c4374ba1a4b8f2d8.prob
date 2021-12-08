@@ -1,0 +1,1 @@
+{"name":"Local: Doublecola","url":"f:\\Codes\\C++ 17\\DSA\\Doublecola.cpp","tests":[{"id":1635777523324,"input":"1","output":"Sheldon"},{"id":1635777533248,"input":"6","output":"Sheldon"},{"id":1635777538292,"input":"1802","output":"Penny"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Codes\\C++ 17\\DSA\\Doublecola.cpp","group":"local","local":true}
