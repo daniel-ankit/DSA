@@ -21,7 +21,7 @@ class BST
     }
     bool isBST(BST *root)
     {
-        //  This function  is actually of no use, as this class will always puts values as
+        //  This function  is actually of no use, as this class always inserts values as
         //  it should be in a BST, so it will always return value true.
         static BST* prev = NULL;
         if(root!=NULL)
