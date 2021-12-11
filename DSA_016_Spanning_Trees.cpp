@@ -12,7 +12,7 @@ COMPLETE GRAPH : Undirected Graph in which every pair of distinct vertices are c
 SPANNING TREE : A connected Subgraph S og graph G is said to be spanning tree if
     - All vertices are present in the subgraph
     - Number of edges = Number of vertices - 1
-    
+    - Total Number of Spanning trees for a graph : n⁽ⁿ⁻²⁾.
 */
 
 int main()
