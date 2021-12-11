@@ -7,6 +7,7 @@ class Graph
     public:
     int N=0;
     bool **M;
+    bool *Visited;
     Graph(int n)
     {
         this->N = n;
@@ -16,6 +17,8 @@ class Graph
             M[i] = new bool[n];
             memset(M[i], 0, n);
         }
+        Visited = new bool[n];
+        memset(Visited, 0, n);
     }
     void link(int a, int b) { M[a][b]=1; M[b][a]=1; }
     void print()
@@ -49,7 +52,16 @@ class Graph
         }
         cout << endl;
     }
-
+    void DFS(int Starting_Node)
+    {
+        cout << Starting_Node << " ";
+        Visited[Starting_Node] = 1;
+        for(int j=0; j<N; j++)
+        {
+            if(M[Starting_Node][j]==1 && !Visited[j])
+                DFS(j);
+        }
+    }
 };
 
 int main()
@@ -62,6 +74,7 @@ int main()
     G.link(2, 3);
     G.link(4, 3);
     G.BFS(2);
-    G.print();
+    // G.print();
+    G.DFS(2);
     return 69;
 }
