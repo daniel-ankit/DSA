@@ -20,7 +20,7 @@ void bubblesort(vector<int> &V)
 
 void insertionsort(vector<int> &V)
 {
-
+    
 }
 
 void quicksort(vector<int> &V)
