@@ -2,13 +2,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*
+/*  THEORY
+
     Traversal - Visiting each element of the Array.
     Insertion - Inserting elements in an Array.
-    Deletion
+    Deletion and
     Searching
         (a.)Sorted
         (b.)Unsorted
+
 */
 
 int S=0;

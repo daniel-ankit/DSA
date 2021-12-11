@@ -2,6 +2,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*  THEORY
+
+*/
+
 struct Node
 {
     int data;
