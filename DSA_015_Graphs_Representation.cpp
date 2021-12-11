@@ -2,14 +2,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 /*
-GRAPH TRAVERSAL ALGORITHMS ARE:
-- Breadth First Search (BFS) Queue
-- Depth First Search (DFS) Stack
 
-
-
+REPRESENTATION OF GRPAHS
+- Adjacency List
+- Ajacency Matrix
+- Edge Set
+- Compact List representation
+- Cost Adjacency List
+- Cost Adjacency Matrix
 
 */
 
@@ -42,7 +43,7 @@ void printmatrix(vector<int> V[], int S)
         {
             if(V[i][j]==k)
             {
-                cout << 1 << " ";
+                cout << "1 ";
                 j++;
             }
             else cout << 0 << " ";
