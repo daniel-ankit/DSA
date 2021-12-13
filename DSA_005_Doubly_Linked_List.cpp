@@ -5,8 +5,8 @@ using namespace std;
 struct Node
 {
     int data;
-    Node* next;
-    Node* prev;
+    Node* next = NULL;
+    Node* prev = NULL;
 };
 
 void traverse(Node *head)
