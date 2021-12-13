@@ -81,21 +81,5 @@ int main()
     cout << Q.isEmpty() << endl;
     cout << Q.peekend() << endl;
     cout << Q.size() << endl;
-
-    DEQueue Q;
-    cout << Q.isEmpty() << endl;
-    Q.Enqueue(10);
-    cout << Q.peek() << endl;
-    cout << Q.isEmpty() << endl;
-    cout << Q.peekend() << endl;
-    Q.Enqueue(20);
-    Q.Enqueue(30);
-    Q.Enqueue(40);
-    Q.Enqueue(50);
-    Q.Enqueue(60);
-    cout << Q.peek() << endl;
-    Q.dequeue();
-    cout << Q.peek() << endl;
-    cout << Q.peekend() << endl;
     return 69;
 }
