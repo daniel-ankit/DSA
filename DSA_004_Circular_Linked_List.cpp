@@ -5,7 +5,7 @@ using namespace std;
 struct Node
 {
     int data;
-    Node *next;
+    Node *next = NULL;
 };
 
 Node *create(Node *head, int dat)
