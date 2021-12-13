@@ -4,9 +4,9 @@ using namespace std;
 
 struct Node
 {
-    Node* prev;
+    Node* prev = NULL;
     int data;
-    Node* next;
+    Node* next = NULL;
 };
 
 void traverse(Node* head)
