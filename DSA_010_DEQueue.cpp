@@ -128,6 +128,5 @@ int main()
     Q.push_front('A');
     Q.push_back('E');
     Q.print();
-    
     return 69;
 }
