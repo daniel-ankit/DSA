@@ -165,12 +165,17 @@ int partition(vector<int> &V, int S, int E)
             swap(V[i], V[index]);
         }
     }
-    swap(V[index+1], V[E]);
-    return index+1;
+    index++;
+    swap(V[index], V[E]);
+    return index;
 }
 
 void quicksort(vector<int> &V, int S, int E)
 {
+    /*
+    Fix the last element as pivot and place all the elements lesser than pivot in first half and elements greater than pivot on second half, using index as another pointer.
+    after exchange the position of index with pivot and return the position of patition.
+    */
     E-=1;
     if(S<E)
     {
@@ -182,8 +187,17 @@ void quicksort(vector<int> &V, int S, int E)
 
 void countsort(vector<int> &V)
 {
-    
-
+    int S[25] = {0}, j;
+    for(int i=0; i<V.size(); i++)
+        S[V[i]]++;
+    for(int i=0; i<25; i++)
+    {
+        while(S[i]--)
+        {
+            V[j]=i;
+            j++;
+        }
+    }
 }
 
 int main()
@@ -195,7 +209,8 @@ int main()
     // bubblesort(V);
     // selectionsort(V);
     // mergesort(V, 0, V.size());
-    quicksort(V, 0, V.size());
+    // quicksort(V, 0, V.size());
+    countsort(V);
     print(V);
     return 69;
 }
