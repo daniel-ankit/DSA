@@ -140,7 +140,6 @@ void mergesort(vector<int> &V, int S, int E)
     Then a merger funcion is called for each division that inserts the elements in the array in their increasing order.
         Divide and Conquere
         Stable - Preserves relative order of records with same key
-        Not Inplace
         O(n) Auxiliary Space
         O(n²) Time Complexity
 
@@ -154,15 +153,36 @@ void mergesort(vector<int> &V, int S, int E)
     }
 }
 
-void quicksort(vector<int> &V)
+int partition(vector<int> &V, int S, int E)
 {
-    for(int i=1; i<V.size(); i++)
+    int pivot = V[E];
+    int index = S-1;
+    for(int i=S; i<=E; i++)
     {
+        if(V[i]<pivot)
+        {
+            index++;
+            swap(V[i], V[index]);
+        }
+    }
+    swap(V[index+1], V[E]);
+    return index+1;
+}
+
+void quicksort(vector<int> &V, int S, int E)
+{
+    E-=1;
+    if(S<E)
+    {
+        int pivot = partition(V, S, E);
+        quicksort(V, S, pivot);
+        quicksort(V, pivot+1, E+1);
     }
 }
 
 void countsort(vector<int> &V)
 {
+    
 
 }
 
@@ -175,7 +195,7 @@ int main()
     // bubblesort(V);
     // selectionsort(V);
     // mergesort(V, 0, V.size());
-
+    quicksort(V, 0, V.size());
     print(V);
     return 69;
 }
