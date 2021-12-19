@@ -20,7 +20,10 @@ using namespace std;
 ║     Count Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(k)    │     Yes    ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
 ║      Heap Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(1)    │     No     ║
+╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
+║      Tree Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(n)    │     Yes    ║
 ╚═════════════════════╧══════════════╧══════════════╧════════════╧════════════╧════════════╝
+
 
 */
 
@@ -205,6 +208,54 @@ void countsort(vector<int> &V)
     return;
 }
 
+struct TreeNode
+{
+    int data;
+    TreeNode* left;
+    TreeNode* right;
+};
+
+vector<int> inorder(TreeNode* root)
+{
+    static vector<int> V;
+    if(!root) return V;
+    inorder(root->left);
+    V.push_back(root->data);
+    inorder(root->right);
+    return V;
+}
+
+TreeNode *create(int val, TreeNode *root)
+{
+    TreeNode *N = new(TreeNode);
+    N->data = val;
+    N->left = NULL;
+    N->right = NULL;
+    return N;
+}
+
+TreeNode *insert(int val, TreeNode *root)
+{
+    if(!root)
+    {
+        TreeNode *N=create(val, root);
+        return N;
+    }
+    if(root->data < val)
+        root->right = insert(val, root->right);
+    else if(root->data > val)
+        root->left = insert(val, root->left);
+    return root;
+}
+
+void treesort(vector<int> &V)
+{
+    TreeNode *BST = NULL;
+    for(int i=0; i<V.size(); i++)
+        BST = insert(V[i], BST);
+    V = inorder(BST);
+}
+
 int main()
 {
     int Sample[6] = {15, 20, 10, 0, 5, -5};
@@ -215,7 +266,7 @@ int main()
     // selectionsort(V);
     // mergesort(V, 0, V.size());
     // quicksort(V, 0, V.size());
-    countsort(V);
+    treesort(V);
     print(V);
     return 69;
 }
