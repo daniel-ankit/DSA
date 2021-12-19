@@ -2,16 +2,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*   THEORY
+/*    THEORY
 
 ╔═════════════════════╤══════════════╤══════════════╤════════════╤════════════╤════════════╗
 ║      ALGORITHM      │      Best    │    Average   │    Worst   │   Memory   │   Stable   ║
 ╠═════════════════════╪══════════════╪══════════════╪════════════╪════════════╪════════════╣
 ║     Bubble Sort     │     Ω(n)     │     Ө(n²)    │    O(n²)   │    O(1)    │     Yes    ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
-║   Selection Sort    │     Ω(n²)    │     Ө(n²)    │    O(n²)   │    O(1)    │     No     ║
+║    Selection Sort   │     Ω(n²)    │     Ө(n²)    │    O(n²)   │    O(1)    │     No     ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
-║   Insertion Sort    │     Ω(n)     │     Ө(n²)    │    O(n²)   │    O(1)    │     Yes    ║
+║    Insertion Sort   │     Ω(n)     │     Ө(n²)    │    O(n²)   │    O(1)    │     Yes    ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
 ║     Merge Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(n)    │     Yes    ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
@@ -19,7 +19,7 @@ using namespace std;
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
 ║     Count Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(k)    │     Yes    ║
 ╟─────────────────────┼──────────────┼──────────────┼────────────┼────────────┼────────────╢
-║     Heap Sort       │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(1)    │     No     ║
+║      Heap Sort      │   Ω(n.logn)  │   Ө(n.logn)  │  O(n.logn) │    O(1)    │     No     ║
 ╚═════════════════════╧══════════════╧══════════════╧════════════╧════════════╧════════════╝
 
 */
@@ -187,22 +187,27 @@ void quicksort(vector<int> &V, int S, int E)
 
 void countsort(vector<int> &V)
 {
-    int S[25] = {0}, j;
+    int MAX = *max_element(V.begin(), V.end());
+    int MIN = *min_element(V.begin(), V.end());
+    int S[MAX-MIN+1] = {0}, j=0;
     for(int i=0; i<V.size(); i++)
-        S[V[i]]++;
-    for(int i=0; i<25; i++)
+        S[V[i]-MIN]++;
+
+    for(int i=0; i<=MAX-MIN; i++)
     {
+        int val = S[i];
         while(S[i]--)
         {
-            V[j]=i;
+            V[j] = MIN+i;
             j++;
         }
     }
+    return;
 }
 
 int main()
 {
-    int Sample[6] = {15, 20, 10, 0, 5, 0};
+    int Sample[6] = {15, 20, 10, 0, 5, -5};
     vector<int> V;
     for(int i=0; i<6; i++)
         V.push_back(Sample[i]);
