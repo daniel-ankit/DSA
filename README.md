@@ -13,6 +13,7 @@ The different Data Structures we'll be studing about are:
 * Queue
   * Implementation using Arrays
   * Implementation using Linked List
+* Double-Ended Queue (DEQueue)
 * Binary Tree
   * Implementation using Arrays
   * Implementation using Doubly Linked List
@@ -26,3 +27,4 @@ The different Data Structures we'll be studing about are:
   * Adjacency Matrix 
   * Edge Set
   * Compact List representation
+* Spanning Trees
