@@ -20,7 +20,7 @@ bool subset_present(vector<int> nums, int sum)
         }
     }
     return DP[n][sum];
-}
+}  
 
 int main()
 {
