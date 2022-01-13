@@ -2,23 +2,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int knapsack(vector<int> weight, vector<int> value, int W, int n)
+int knapsack(vector<int> weight, vector<int> value, int W, int index)
 {
-    static vector<vector<int>> DP (n+1, vector<int>(W+1, -1));
-    for(int i=0; i<=n; i++) DP[i][0] = 0;
-    for(int i=0; i<=W; i++) DP[0][i] = 0;
-
-    for(int i=1; i<=n; i++)
-    {
-        for(int j=1; j<=W; j++)
-        {
-            if(weight[i-1]<=j)
-                DP[i][j] = max(value[i-1]+DP[i-1][j-weight[i-1]], DP[i-1][j]);
-            else
-                DP[i][j] = DP[i-1][j];
-        }
-    }
-    return DP[n][W];
+    if(W <= 0 || index < 0) // Base Condition
+        return 0; 
+    if(weight[index]<=W)
+        return max(value[index]+knapsack(weight, value, W-weight[index], index-1), knapsack(weight, value, W, index-1));
+    else
+        return knapsack(weight, value, W, index-1);
 }
 
 int main()
