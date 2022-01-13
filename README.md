@@ -24,4 +24,5 @@ The different Data Structures we'll be studing about are:
 * Graph
   * Adjacency List
   * Adjacency Matrix 
-  * 
+  * Edge Set
+  * Compact List representation
