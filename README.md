@@ -17,7 +17,11 @@ The different Data Structures we'll be studing about are:
   * Implementation using Arrays
   * Implementation using Doubly Linked List
 * Binary Search Tree
+* AVL (Adelson-Velsky and Landis) Tree
 * Heap
   * Binary Tree Implementation
   * Array Implementation
 * Graph
+  * Adjacency List
+  * Adjacency Matrix 
+  * 
