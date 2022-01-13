@@ -1,6 +1,6 @@
 ### <ins> My Dynamic Programming Journey </ins>
 
-Will be add all the codes I wrote while learning Dynamic Programming.
+Will be adding all the codes I wrote while learning Dynamic Programming.
 
 <ins> Resources I used: </ins>
 
