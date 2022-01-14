@@ -1,4 +1,4 @@
-## <ins> My Dynamic Programming Journey </ins>
+## My Dynamic Programming Journey
 
 Will be adding all the codes I wrote while learning Dynamic Programming.
 
