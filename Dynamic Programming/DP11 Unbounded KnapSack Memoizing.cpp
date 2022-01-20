@@ -9,6 +9,7 @@ class Solution{
         int DP[L+1][n+1] = {-1};
         for(int i=0; i<=n; i++) DP[i][0] = 0;
         for(int i=0; i<=L; i++) DP[0][i] = 0;
+        
         for(int i=1; i<=n; i++)
         {
             for(int j=1; j<=L; j++)
