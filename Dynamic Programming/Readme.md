@@ -18,7 +18,8 @@ Resources I used:
 ## Types of Problems in Dynamic Programming and their variations
 
 
-* 0/1 Knapsack problem [6]
+1. 0/1 Knapsack problem [6] <br/>
+
       [Geeks for Geeks 0-1 KnapSack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) <br />
       [Interview Bit - Subset Sum](https://www.interviewbit.com/problems/subset-sum-problem/)<br />
       [Leetcode - Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)<br />
@@ -26,13 +27,13 @@ Resources I used:
       [Leetcode - Target Sum](https://leetcode.com/problems/target-sum/)<br />
       [Geeks for Geeks - Minimum Sum Partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) </br >
 
-* Unbounded Knapsack [5]
-* Fibonacci [7]
-* LCS [15]
-* LIS [10]
-* Kadane's Algorithm [6]
-* Matrix Chain Multiplication [7]
-* Dynamic Programming on Trees [4]
-* Dynamic Programming on Grid [14]
-* Others [5]
+2. Unbounded Knapsack [5]
+3. Fibonacci [7]
+4. LCS [15]
+5. LIS [10]
+6. Kadane's Algorithm [6]
+7. Matrix Chain Multiplication [7]
+8. Dynamic Programming on Trees [4]
+9. Dynamic Programming on Grid [14]
+10. Others [5]
 
