@@ -4,22 +4,22 @@ using namespace std;
 
 class Solution{
     public:
-    int max_profit(vector<int> length, vector<int> prices, int L, int n)
+    int max_profit(vector<int> weight, vector<int> value, int W, int n)
     {
-        int DP[L+1][n+1] = {-1};
+        int DP[W+1][n+1] = {-1};
         for(int i=0; i<=n; i++) DP[i][0] = 0;
-        for(int i=0; i<=L; i++) DP[0][i] = 0;
+        for(int i=0; i<=W; i++) DP[0][i] = 0;
         
         for(int i=1; i<=n; i++)
         {
-            for(int j=1; j<=L; j++)
+            for(int j=1; j<=W; j++)
             {
-                if(length[i-1]<=j)
-                    DP[i][j] = max(prices[i-1] + DP[i][j-length[i-1]], DP[i-1][j]);
+                if(weight[i-1]<=j)
+                    DP[i][j] = max(value[i-1] + DP[i][j-weight[i-1]], DP[i-1][j]);
                 else DP[i][j] = DP[i-1][j];
             }
         }
-        return DP[n][L];
+        return DP[n][W];
     }
 };
 
