@@ -28,12 +28,19 @@ Resources I used:
       [Geeks for Geeks - Minimum Sum Partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) </br >
 
 2. Unbounded Knapsack [5]
-3. Fibonacci [7]
-4. LCS [15]
-5. LIS [10]
-6. Kadane's Algorithm [6]
-7. Matrix Chain Multiplication [7]
-8. Dynamic Programming on Trees [4]
-9. Dynamic Programming on Grid [14]
-10. Others [5]
+
+      [Geeks for Geeks - Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) <br />
+      [Hackerrank - Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) </br >
+      [Geeks for Geeks - Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) </br >
+      [Geeks for Geeks - Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) </br >
+      [Leetcode - Coin Change 2](https://leetcode.com/problems/coin-change-2/) </br >
+      [Hackerrank - The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) </br >
+4. Fibonacci [7]
+5. LCS [15]
+6. LIS [10]
+7. Kadane's Algorithm [6]
+8. Matrix Chain Multiplication [7]
+9. Dynamic Programming on Trees [4]
+10. Dynamic Programming on Grid [14]
+11. Others [5]
 
