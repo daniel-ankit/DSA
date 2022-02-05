@@ -17,6 +17,6 @@ int main()
     vector<int> length = {1, 2, 3, 4, 5, 6, 7, 8};
     int n = price.size();
     int L = 8;
-    cout << Unbounded_Knapsack(price, length, L, n);
+    cout << Unbounded_Knapsack(price, length, L, n) << endl;
     return 69;
 }
