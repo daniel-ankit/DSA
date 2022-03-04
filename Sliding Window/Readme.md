@@ -25,7 +25,7 @@ As its name suggests, this technique involves taking a subset of data from a giv
 | [First negative integer in every window of size k](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) |    Geeks for Geeks   | Easy | [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=f3a0f4e87bccb507f025a5e21cba396d&pid=703375&user=ankitkumar061000) |
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Leetocde | Medium | [Solution](https://leetcode.com/submissions/detail/610344914/) |
 | [Count Occurences of Anagrams ](https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) <br /> | Geeks for Geeks | Medium | [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=e5afdb93a9a7ff8926660f079e4a2a20&pid=702781&user=ankitkumar061000) |
-| [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1) | Geeks for Geeks | Medium | [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=8cc87386ff1fc0f4940fd228882064a6&pid=701349&user=ankitkumar061000)|
 | [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | Leetcode | Medium | [Solution](https://leetcode.com/submissions/detail/648702454/) |
+| [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1) | Geeks for Geeks | Medium | [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=8cc87386ff1fc0f4940fd228882064a6&pid=701349&user=ankitkumar061000)|
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Leetode | Hard | |
 
