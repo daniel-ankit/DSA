@@ -1,5 +1,7 @@
 ## Sliding Window
 
+Recommended Recources : [Aditya Verma - Sliding window Playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj)
+
 ### What is the sliding window technique?
 As its name suggests, this technique involves taking a subset of data from a given array or string, expanding or shrinking that subset to satisfy certain conditions, hence the sliding effect.
 
@@ -26,3 +28,4 @@ As its name suggests, this technique involves taking a subset of data from a giv
 | [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1) | Geeks for Geeks | Medium | [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=8cc87386ff1fc0f4940fd228882064a6&pid=701349&user=ankitkumar061000)|
 | [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | Leetcode | Medium | [Solution](https://leetcode.com/submissions/detail/648702454/) |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Leetode | Hard | |
+
