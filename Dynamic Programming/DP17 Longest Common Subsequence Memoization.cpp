@@ -15,6 +15,8 @@ int LongestCommonSubsequence(string A, int a, string B, int b)
 
 int main()
 {
-    
+    string X, Y;
+    cin >> X >> Y;
+    cout << LongestCommonSubsequence(X, X.size(), Y, Y.size());
     return 69;
 }
