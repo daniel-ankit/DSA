@@ -20,22 +20,32 @@ Resources I used:
 
 1. 0/1 Knapsack problem [6] <br/>
 
-      [Geeks for Geeks 0-1 KnapSack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) <br />
+      [GFG - 0-1 KnapSack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1#) <br />
       [Interview Bit - Subset Sum](https://www.interviewbit.com/problems/subset-sum-problem/)<br />
       [Leetcode - Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)<br />
       [Leetcode - Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)<br />
       [Leetcode - Target Sum](https://leetcode.com/problems/target-sum/)<br />
-      [Geeks for Geeks - Minimum Sum Partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) </br >
+      [GFG - Minimum Sum Partition](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1) </br >
 
 2. Unbounded Knapsack [5]
 
-      [Geeks for Geeks - Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) <br />
+      [GFG - Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) <br />
       [Hackerrank - Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem) </br >
-      [Geeks for Geeks - Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) </br >
-      [Geeks for Geeks - Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) </br >
+      [GFG - Rod Cutting](https://practice.geeksforgeeks.org/problems/rod-cutting/0/?category) </br >
+      [GFG - Coin Change](https://practice.geeksforgeeks.org/problems/coin-change2448/1) </br >
       [Leetcode - Coin Change 2](https://leetcode.com/problems/coin-change-2/) </br >
       [Hackerrank - The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) </br >
-4. Fibonacci [7]
+      
+3. Fibonacci [7]
+      [GFG - Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) </br >
+      [Leetcode - Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) </br >
+      [Binary Search - Longest Common Subsequence](https://binarysearch.com/problems/Longest-Common-Subsequence) </br >
+      [GFG - Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1) </br >
+      [Leetcode - Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) </br >
+      []() </br >
+      []() </br >
+      []() </br >
+      []() </br >
 5. LCS [15]
 6. LIS [10]
 7. Kadane's Algorithm [6]
