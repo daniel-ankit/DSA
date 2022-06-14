@@ -37,6 +37,10 @@ Resources I used:
       [Hackerrank - The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem) </br >
       
 3. Fibonacci [7]
+
+      
+5. LCS [15]
+
       [GFG - Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) </br >
       [Leetcode - Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) </br >
       [Binary Search - Longest Common Subsequence](https://binarysearch.com/problems/Longest-Common-Subsequence) </br >
@@ -46,11 +50,11 @@ Resources I used:
       []() </br >
       []() </br >
       []() </br >
-5. LCS [15]
-6. LIS [10]
-7. Kadane's Algorithm [6]
-8. Matrix Chain Multiplication [7]
-9. Dynamic Programming on Trees [4]
-10. Dynamic Programming on Grid [14]
-11. Others [5]
+      
+7. LIS [10]
+8. Kadane's Algorithm [6]
+9. Matrix Chain Multiplication [7]
+10. Dynamic Programming on Trees [4]
+11. Dynamic Programming on Grid [14]
+12. Others [5]
 
